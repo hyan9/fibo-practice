@@ -5,5 +5,5 @@ def fibonacci_sequence(k):
             pad[k] = fib_inner(k - 1) + fib_inner(k - 2) 
         return pad[k] 
     return fib_inner(k) 
-if __name__ == “__main__”: 
+if __name__ == "__main__": 
     print(fibonacci_sequence(10))
